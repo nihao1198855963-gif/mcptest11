@@ -1,0 +1,111 @@
+2025-07-20T23:55:09.244+08:00 [info] [main] 日志级别: Info
+2025-07-20T23:55:09.244+08:00 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files\Git\cmd\git.exe"
+2025-07-20T23:55:09.244+08:00 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files (x86)\Git\cmd\git.exe"
+2025-07-20T23:55:09.244+08:00 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files\Git\cmd\git.exe"
+2025-07-20T23:55:09.244+08:00 [info] [main] 正在验证在以下位置找到的 git: "C:\Users\Administrator\AppData\Local\Programs\Git\cmd\git.exe"
+2025-07-20T23:55:09.330+08:00 [info] [main] 正在验证在以下位置找到的 git: "D:\GIT\Git\cmd\git.exe"
+2025-07-20T23:55:09.407+08:00 [info] [main] 使用来自 "D:\GIT\Git\cmd\git.exe" 的 git "2.50.1.windows.1"
+2025-07-20T23:55:09.407+08:00 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-20T23:55:09.409+08:00 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-20T23:55:24.647+08:00 [info] [main] 日志级别: Info
+2025-07-20T23:55:24.647+08:00 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files\Git\cmd\git.exe"
+2025-07-20T23:55:24.647+08:00 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files (x86)\Git\cmd\git.exe"
+2025-07-20T23:55:24.647+08:00 [info] [main] 正在验证在以下位置找到的 git: "C:\Program Files\Git\cmd\git.exe"
+2025-07-20T23:55:24.647+08:00 [info] [main] 正在验证在以下位置找到的 git: "C:\Users\Administrator\AppData\Local\Programs\Git\cmd\git.exe"
+2025-07-20T23:55:24.755+08:00 [info] [main] 正在验证在以下位置找到的 git: "D:\GIT\Git\cmd\git.exe"
+2025-07-20T23:55:24.802+08:00 [info] [main] 使用来自 "D:\GIT\Git\cmd\git.exe" 的 git "2.50.1.windows.1"
+2025-07-20T23:55:24.802+08:00 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-20T23:55:24.843+08:00 [info] > git rev-parse --show-toplevel [32ms]
+2025-07-20T23:55:24.843+08:00 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-20T23:55:24.843+08:00 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-20T23:55:25.853+08:00 [info] > git rev-parse --show-toplevel [67ms]
+2025-07-20T23:55:25.853+08:00 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-21T00:35:51.802+08:00 [info] > git rev-parse --show-toplevel [35ms]
+2025-07-21T00:35:51.802+08:00 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-21T00:57:04.614+08:00 [info] > git init -b main [38ms]
+2025-07-21T00:57:04.643+08:00 [info] > git rev-parse --show-toplevel [27ms]
+2025-07-21T00:57:04.673+08:00 [info] > git rev-parse --git-dir --git-common-dir [28ms]
+2025-07-21T00:57:04.679+08:00 [info] [Model][openRepository] Opened repository (path): e:\桌面\111
+2025-07-21T00:57:04.679+08:00 [info] [Model][openRepository] Opened repository (real path): e:\桌面\111
+2025-07-21T00:57:04.684+08:00 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-21T00:57:04.714+08:00 [info] > git config --get commit.template [31ms]
+2025-07-21T00:57:04.715+08:00 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [30ms]
+2025-07-21T00:57:04.715+08:00 [warning] [Git][getBranch] No such branch: main
+2025-07-21T00:57:04.751+08:00 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [32ms]
+2025-07-21T00:57:04.752+08:00 [info] > git status -z -uall [35ms]
+2025-07-21T00:57:04.761+08:00 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-21T00:57:04.790+08:00 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [33ms]
+2025-07-21T00:57:04.790+08:00 [warning] [Git][getBranch] No such branch: main
+2025-07-21T00:57:04.790+08:00 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-07-21T00:57:04.795+08:00 [info] > git config --get commit.template [36ms]
+2025-07-21T00:57:04.796+08:00 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [35ms]
+2025-07-21T00:57:04.796+08:00 [warning] [Git][getBranch] No such branch: main
+2025-07-21T00:57:04.835+08:00 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [33ms]
+2025-07-21T00:57:04.835+08:00 [info] > git status -z -uall [36ms]
+2025-07-21T00:57:04.997+08:00 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [32ms]
+2025-07-21T00:57:04.997+08:00 [info] fatal: bad revision 'refs/heads/main'
+2025-07-21T00:57:04.997+08:00 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-07-21T00:57:05.522+08:00 [info] > git check-ignore -v -z --stdin [30ms]
+2025-07-21T00:57:06.004+08:00 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-21T00:57:06.035+08:00 [info] > git config --get commit.template [32ms]
+2025-07-21T00:57:06.036+08:00 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [31ms]
+2025-07-21T00:57:06.036+08:00 [warning] [Git][getBranch] No such branch: main
+2025-07-21T00:57:06.069+08:00 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2025-07-21T00:57:06.070+08:00 [info] > git status -z -uall [33ms]
+2025-07-21T00:58:44.736+08:00 [info] > git remote add TRAE https://github.com/nihao1198855963-gif/mcptest11.git [30ms]
+2025-07-21T00:58:44.770+08:00 [info] > git config --get commit.template [32ms]
+2025-07-21T00:58:44.770+08:00 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [30ms]
+2025-07-21T00:58:44.771+08:00 [warning] [Git][getBranch] No such branch: main
+2025-07-21T00:58:44.827+08:00 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [53ms]
+2025-07-21T00:58:44.829+08:00 [info] > git status -z -uall [57ms]
+2025-07-21T00:58:45.968+08:00 [info] > git fetch TRAE [1136ms]
+2025-07-21T00:58:46.002+08:00 [info] > git config --get commit.template [32ms]
+2025-07-21T00:58:46.003+08:00 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [32ms]
+2025-07-21T00:58:46.003+08:00 [warning] [Git][getBranch] No such branch: main
+2025-07-21T00:58:46.038+08:00 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [32ms]
+2025-07-21T00:58:46.038+08:00 [info] > git status -z -uall [34ms]
+2025-07-21T01:00:55.694+08:00 [info] > git add -A -- . [32ms]
+2025-07-21T01:00:55.730+08:00 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [34ms]
+2025-07-21T01:00:55.730+08:00 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-07-21T01:00:55.762+08:00 [info] > git config --get-all user.name [30ms]
+2025-07-21T01:00:55.794+08:00 [info] > git config --get-all user.email [31ms]
+2025-07-21T01:00:55.828+08:00 [info] > git config --get commit.template [32ms]
+2025-07-21T01:00:55.829+08:00 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [31ms]
+2025-07-21T01:00:55.829+08:00 [warning] [Git][getBranch] No such branch: main
+2025-07-21T01:00:55.863+08:00 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [31ms]
+2025-07-21T01:00:55.864+08:00 [info] > git status -z -uall [32ms]
+2025-07-21T01:00:56.266+08:00 [info] > git show --textconv :.vercel/project.json [37ms]
+2025-07-21T01:00:56.267+08:00 [info] > git show --textconv HEAD:.vercel/project.json [36ms]
+2025-07-21T01:00:56.269+08:00 [info] > git ls-tree -l HEAD -- .vercel/project.json [35ms]
+2025-07-21T01:00:56.269+08:00 [info] fatal: Not a valid object name HEAD
+2025-07-21T01:00:56.271+08:00 [info] > git ls-files --stage -- .vercel/project.json [39ms]
+2025-07-21T01:00:56.302+08:00 [info] > git hash-object -t tree /dev/null [33ms]
+2025-07-21T01:00:56.302+08:00 [warning] [GitFileSystemProvider][readFile] File not found - git:/e%3A/%E6%A1%8C%E9%9D%A2/111/.vercel/project.json.git?%7B%22path%22%3A%22e%3A%5C%5C%E6%A1%8C%E9%9D%A2%5C%5C111%5C%5C.vercel%5C%5Cproject.json%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-07-21T01:00:56.303+08:00 [info] > git hash-object -t tree /dev/null [32ms]
+2025-07-21T01:00:56.303+08:00 [warning] [GitFileSystemProvider][stat] File not found - git:/e%3A/%E6%A1%8C%E9%9D%A2/111/.vercel/project.json.git?%7B%22path%22%3A%22e%3A%5C%5C%E6%A1%8C%E9%9D%A2%5C%5C111%5C%5C.vercel%5C%5Cproject.json%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-07-21T01:00:56.305+08:00 [info] > git cat-file -s c0de99899e09cacc8324a6332665b2f9de74ab00 [33ms]
+2025-07-21T01:01:09.138+08:00 [info] > git ls-files --stage -- .vercel/project.json [38ms]
+2025-07-21T01:01:09.140+08:00 [info] > git config --get commit.template [42ms]
+2025-07-21T01:01:09.140+08:00 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [38ms]
+2025-07-21T01:01:09.140+08:00 [warning] [Git][getBranch] No such branch: main
+2025-07-21T01:01:09.176+08:00 [info] > git cat-file -s c0de99899e09cacc8324a6332665b2f9de74ab00 [36ms]
+2025-07-21T01:01:09.177+08:00 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [33ms]
+2025-07-21T01:01:09.177+08:00 [info] > git status -z -uall [35ms]
+2025-07-21T01:01:09.351+08:00 [info] > git show --textconv :.vercel/project.json [36ms]
